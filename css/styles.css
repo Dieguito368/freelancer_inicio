@@ -100,7 +100,7 @@ h1, h2, h3 {
 /* Header */
 @media (min-width: 480px) {
     header {
-        padding: 2.5rem 1rem;
+        padding: 2.5rem 15rem;
     }
 }
 
