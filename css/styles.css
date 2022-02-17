@@ -98,10 +98,8 @@ h1, h2, h3 {
 }
 
 /* Header */
-@media (min-width: 480px) {
-    header {
-        padding: 2.5rem 1rem;
-    }
+header {
+    padding: 2.5rem 2rem;
 }
 
 /* Navegacion Principal */
@@ -171,6 +169,10 @@ h1, h2, h3 {
     margin-right: 1.2rem;
 }
 
+.contenido-hero a {
+    margin-bottom: .8rem;
+}
+
 /* Servicios */
 .contenedor-servicios {
     margin: 5rem auto;
@@ -206,7 +208,7 @@ h1, h2, h3 {
     .servicios {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
-        gap: 5rem;
+        gap: 6rem;
     }
 
     .servicio:nth-child(3){
@@ -258,7 +260,7 @@ h1, h2, h3 {
     line-height: 2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
     .servicio p {
         text-align: justify;
     }
@@ -267,7 +269,7 @@ h1, h2, h3 {
 /* Contacto */
 .formulario {
     background-color: var(--gris);
-    width: min(80rem, 100%);
+    width: min(90rem, 100%);
     padding: 3rem 2.5rem;
     margin: 0 auto;
     border-radius: 1rem;
@@ -278,6 +280,7 @@ h1, h2, h3 {
         padding: 3rem 5rem;
     }
 }
+
 
 .formulario fieldset {
     border: none;
