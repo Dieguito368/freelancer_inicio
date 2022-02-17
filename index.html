@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diseñador Freelancer</title>
+        <!-- Normalize  -->
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!-- Estilos  -->
+        <link rel="preload" href="css/styles.css" as="style">
+        <link rel="stylesheet" href="css/styles.css">   
+    </head>
+
+    <body>
+        <header>
+            <h1 class="titulo no-margin" id="titulo">Diego Bautista González <span>Freelancer</span></h1>
+        </header>
+
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre Mi</a>
+                <a href="#">Clientes</a>
+                <a href="">Contacto</a>
+            </nav>
+        </div>
+
+        <section class="hero">
+            <div class="contenido-hero">
+                <h2>Diseño y Desarrollo Web Freelancer</h2>
+
+                <div class="ubicacion">
+                    <img src="icons/map-pin.svg">
+                    <p class="no-margin">Huixquilucan, Estado de México</p>
+                </div>
+
+                <a href="#" class="boton">Contactar</a>
+            </div><!-- .contenido-hero -->
+        </section>
+
+        <main class="contenedor-servicios contenedor sombra">
+            <h2>Mis Servicios</h2>
+            
+            <div class="servicios">
+                <section class="servicio">
+                    <h3>Diseño Web</h3>
+                    <div class="iconos">
+                        <img src="icons/palette.svg">
+                    </div>
+                    <p>Etiam nec augue vitae ligula hendrerit ornare id sed mi. Pellentesque malesuada quam quis gravida gravida</p>
+                </section>
+                
+                <section class="servicio">
+                    <h3>Aplicaciones Web</h3>
+                    <div class="iconos">
+                        <img src="icons/android.svg">
+                        <img src="icons/apple.svg">
+                    </div>
+                    <p>Etiam nec augue vitae ligula hendrerit ornare id sed mi. Pellentesque malesuada quam quis gravida gravida</p>
+                </section>
+                
+                <section class="servicio">
+                    <h3>E-Commerce</h3>
+                    <div class="iconos">
+                        <img src="icons/card.svg">
+                    </div>
+                    <p>Etiam nec augue vitae ligula hendrerit ornare id sed mi. Pellentesque malesuada quam quis gravida gravida</p>
+                </section>
+            </div> <!-- .div-servicios -->
+        </main>
+            
+        <section class="sombra contacto contenedor">
+            <h2>Contacto</h2>
+
+            <form action="#" class="formulario">
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre:</label>
+                            <input class="caja-texto" type="text" placeholder="Tu Nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Teléfono:</label>
+                            <input class="caja-texto" type="number" placeholder="Tu Teléfono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Correo:</label>
+                            <input class="caja-texto" type="email" placeholder="Tu Correo">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje:</label>
+                            <textarea class="caja-texto"></textarea>
+                        </div>
+                    </div><!-- .contenedor-campos -->
+
+                    <div class="enviar">
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>Todos los derechos reservados. Diego Bautista González Freelancer</p>
+        </footer>
+    </body> 
+</html>
