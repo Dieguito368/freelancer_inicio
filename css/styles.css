@@ -242,11 +242,16 @@ header {
 .servicio .iconos {
     display: flex;
     justify-content: space-around;
-    width: 12rem;
-    height: 12rem;
+    width: 13.5rem;
+    height: 13.5rem;
     background-color: var(--primario);
     border-radius: 50%;
     align-items: center;
+}
+
+.iconos img {
+    width: 4.4rem;
+    height: 4.4rem;
 }
 
 .servicio p {
